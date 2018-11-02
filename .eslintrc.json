@@ -1,0 +1,34 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "spread": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "plugins": ["sort-requires"],
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": "off",
+    "linebreak-style": "off",
+    "max-params": ["error", 3],
+    "no-await-in-loop": "error",
+    "no-console": "error",
+    "no-empty": "off",
+    "no-new-require": "error",
+    "no-return-await": "error",
+    "new-cap": "error",
+    "newline-before-return": "error",
+    "prefer-const": "error",
+    "quotes": ["error", "double"],
+    "require-await": "error",
+    "semi": ["error", "always"],
+    "sort-imports": "error",
+    "sort-requires/sort-requires": "error"
+  }
+}
