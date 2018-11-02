@@ -7,7 +7,7 @@
 ```bash
 git clone git@github.com:vitaly-g/log-report.git
 cd log-report
-npm install
+npm install (не обязательно, требуется для работы ESLint)
 ```
 
 ## Пример запуска

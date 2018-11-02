@@ -29,6 +29,7 @@ async function collectReport(gzippedLogFile, period) {
         process.stderr.write(
           `ERROR in ${gzippedLogFile}: Cannot convert to JSON line: "${line}"\n`
         );
+        
         return;
       }      
       const { event_type, campaign_id, time } = data;
